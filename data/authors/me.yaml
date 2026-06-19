@@ -61,27 +61,21 @@ education:
 
 experience:
   - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+    org: Avemoy
+    start: Sep 2024
+    end: Jan 2026
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      Developed and deployed perception-driven UAV autonomy modules
+      Implemented and integrated multi-sensor fusion between different sensors
+      Re-architected mission planner into a state-machine-based design, improving scalability and maintainability
+  - role: Researcher
+    org: University of Klagenfurt
+    start: Jul 2023
+    end: Jul 2024
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
+      Developed a point-cloud-based altitude estimation module.
+      Built trajectory evaluation tools to estimate flight accuracy.
       Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
-    summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
 
 skills:
   - name: Development

@@ -18,10 +18,10 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "Autonoomy Modules"
+          - "CV Systems"
+          - "AI Models"
+          - "embedded Robotics Software"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -56,12 +56,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
+        - name: Robotics
+          tag: Robotics
+        - name: Computer Vision & AI
+          tag: CV
       default_button_index: 0
       # Archive link auto-shown if more projects exist than 'count' above
       # archive:
@@ -86,44 +84,29 @@ sections:
       categories:
         - name: Languages
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
+            - name: C++
+              icon: devicon/cplusplus
+            - name: Bash
+              icon: devicon/bash
+            - name: Matlab
+              icon: devicon/matlab
+        - name: AI
           items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
+            - name: Pytorch
+              icon: devicon/pytorch
+            - name: TensorFlow
+              icon: devicon/tensorflow
+            - name: OpenCV
+              icon: devicon/opencv
+        - name: Robotics
           items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
-          items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: Ros 1
+              icon: devicon/ros
+            - name: Ros 2
+              icon: brands/ros
+
     design:
       style: grid
       show_levels: false
@@ -186,28 +169,28 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-  # Recent Blog Posts
-  - block: collection
-    id: blog
-    content:
-      title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
-      text: ''
-      filters:
-        folders:
-          - blog
-        exclude_featured: false
-      count: 3
-      order: desc
-    design:
-      view: card
-      columns: 3
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+  # # Recent Blog Posts
+  # - block: collection
+  #   id: blog
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: 'Thoughts on web development, tech, and more'
+  #     text: ''
+  #     filters:
+  #       folders:
+  #         - blog
+  #       exclude_featured: false
+  #     count: 3
+  #     order: desc
+  #   design:
+  #     view: card
+  #     columns: 3
+  #     background:
+  #       color:
+  #         light: "#f5f5f5"
+  #         dark: "#08080c"
+  #     spacing:
+  #       padding: ["4rem", "0", "4rem", "0"]
   
   # Contact Section
   - block: contact-info
@@ -218,7 +201,7 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+      email: ahmedmohsen022@gmail.com
       autolink: true
     design:
       columns: '1'

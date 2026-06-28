@@ -75,43 +75,43 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-  # Experience Timeline
-  - block: resume-experience
-    id: experience
-    content:
-      title: Experience
-      date_format: Jan 2006
-      items:
-        - title: Software Engineer
-          company: Avemoy
-          company_url: ''
-          company_logo: ''
-          location: ''
-          date_start: '2024-09-01'
-          date_end: '2026-01-01'
-          description: |2-
-            * Developed and deployed perception-driven UAV autonomy modules.
-            * Implemented and integrated multi-sensor fusion between different sensors.
-            * Re-architected mission planner into a state-machine-based design, improving scalability and maintainability.
-        - title: Researcher
-          company: University of Klagenfurt
-          company_url: ''
-          company_logo: ''
-          location: Klagenfurt, Austria
-          date_start: '2023-07-01'
-          date_end: '2024-07-01'
-          description: |2-
-            * Developed a point-cloud-based altitude estimation module.
-            * Built trajectory evaluation tools to estimate flight accuracy.
-            * Optimized autonomy pipeline by converting critical modules from Python to C++.
-    design:
-      columns: '1'
-      background:
-        color:
-          light: "#ffffff"
-          dark: "#0d0d12"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+  # # Experience Timeline
+  # - block: resume-experience
+  #   id: experience
+  #   content:
+  #     title: Experience
+  #     date_format: Jan 2006
+  #     items:
+  #       - title: Software Engineer
+  #         company: Avemoy
+  #         company_url: ''
+  #         company_logo: ''
+  #         location: ''
+  #         date_start: '2024-09-01'
+  #         date_end: '2026-01-01'
+  #         description: |2-
+  #           * Developed and deployed perception-driven UAV autonomy modules.
+  #           * Implemented and integrated multi-sensor fusion between different sensors.
+  #           * Re-architected mission planner into a state-machine-based design, improving scalability and maintainability.
+  #       - title: Researcher
+  #         company: University of Klagenfurt
+  #         company_url: ''
+  #         company_logo: ''
+  #         location: Klagenfurt, Austria
+  #         date_start: '2023-07-01'
+  #         date_end: '2024-07-01'
+  #         description: |2-
+  #           * Developed a point-cloud-based altitude estimation module.
+  #           * Built trajectory evaluation tools to estimate flight accuracy.
+  #           * Optimized autonomy pipeline by converting critical modules from Python to C++.
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       color:
+  #         light: "#ffffff"
+  #         dark: "#0d0d12"
+  #     spacing:
+  #       padding: ["4rem", "0", "4rem", "0"]
 
   # Visual Tech Stack - Icons organized by category
   - block: tech-stack
@@ -157,30 +157,30 @@ sections:
   
   
   # Education
-  - block: resume-experience
-    id: education
-    content:
-      title: Education
-      date_format: Jan 2006
-      items:
-        - title: M.Sc. Robotics & Computer Vision
-          institution: Innopolis University
-          date_start: '2021-08-01'
-          date_end: '2023-07-01'
-          description: ''
-        - title: B.Sc. Mechanical Engineering (Mechatronics)
-          institution: Nile University
-          date_start: '2016-08-01'
-          date_end: '2021-06-01'
-          description: ''
-    design:
-      columns: '1'
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+  # - block: resume-experience
+  #   id: education
+  #   content:
+  #     title: Education
+  #     date_format: Jan 2006
+  #     items:
+  #       - title: M.Sc. Robotics & Computer Vision
+  #         institution: Innopolis University
+  #         date_start: '2021-08-01'
+  #         date_end: '2023-07-01'
+  #         description: ''
+  #       - title: B.Sc. Mechanical Engineering (Mechatronics)
+  #         institution: Nile University
+  #         date_start: '2016-08-01'
+  #         date_end: '2021-06-01'
+  #         description: ''
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       color:
+  #         light: "#f5f5f5"
+  #         dark: "#08080c"
+  #     spacing:
+  #       padding: ["4rem", "0", "4rem", "0"]
 
   # # Recent Blog Posts
   # - block: collection

@@ -106,6 +106,10 @@ sections:
               icon: devicon/ros
             - name: Ros 2
               icon: brands/ros
+            - name: Git
+              icon: devicon/git
+            - name: Docker
+              icon: devicon/docker
 
     design:
       style: grid

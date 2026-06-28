@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Ahmed M. Alii
+  display: Ahmed M. Ali
   given: Ahmed
   family: Ali
 postnominals: []
@@ -22,7 +22,7 @@ bio: |
 
 social:
   - icon: at-symbol
-    url: ahmedmohsen022@gmail.com
+    url: mailto:ahmedmohsen022@gmail.com
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/Ahmed-Mohsen-7

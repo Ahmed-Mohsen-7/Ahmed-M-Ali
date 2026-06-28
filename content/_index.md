@@ -122,7 +122,6 @@ sections:
     id: experience
     content:
       username: me
-      title: Work Experience
     design:
       date_format: Jan-2006
       is_education_first: false
@@ -145,6 +144,7 @@ sections:
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
       email: ahmedmohsen022@gmail.com
+      username: me 
       autolink: true
     design:
       columns: '1'
@@ -160,7 +160,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **software engineer* roles.
+        I'm currently looking for *software engineer* roles.
         Let's connect and discuss how I can help your team.
       button:
         text: 'Download Resume'

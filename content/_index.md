@@ -145,6 +145,11 @@ sections:
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
       email: ahmedmohsen022@gmail.com
       username: me 
+      social:
+      - icon: brands/github
+        url: https://github.com/Ahmed-Mohsen-7
+      - icon: brands/linkedin
+        url: https://www.linkedin.com/in/AhmeddMohsen
       autolink: true
     design:
       columns: '1'
@@ -160,7 +165,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for *software engineer* roles.
+        I'm currently looking for **software engineer** roles.
         Let's connect and discuss how I can help your team.
       button:
         text: 'Download Resume'

@@ -157,7 +157,7 @@ sections:
   
   
   # Education
-  - block: resume-education
+  - block: resume-experience
     id: education
     content:
       title: Education

@@ -1,7 +1,7 @@
 ---
 title: "Human Iris Detection"
 summary: "Deep learning pipeline for accurate eye pupil localization using heterogeneous CNN models and trained on G14E Dataset"
-date: 2021-12
+date: 2021-12-01
 tags:
   - CV
 ---
